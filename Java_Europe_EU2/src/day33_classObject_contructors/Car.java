@@ -19,7 +19,7 @@ public class Car {
 		
 	}
 	
-	/*.
+	/*
 	public Car(String mo,String ma,int yr,double ml,String cl) {
 		model = mo;
 		make = ma;
