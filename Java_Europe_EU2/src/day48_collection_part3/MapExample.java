@@ -16,7 +16,7 @@ public class MapExample {
 		items.put("Flowers", 10.99);
 		items.put("Eggs", 4.99);
 		items.put("Milk", 6.0);
-		items.put("Cherries", 6.99);
+		items.put("Cherries", 4.99);
 		items.put("Apple", 5.49);
 		
 		System.out.println(items.size());
@@ -36,12 +36,14 @@ public class MapExample {
 		System.out.println("Is Flowers there?" + items.containsKey("Flowers"));
 		
 		items.replace("Eggs", 3.5);
-		System.out.println("Price of Eggs:" + items.get("Eggs"));
+		System.out.println("Price of Eggs: " + items.get("Eggs"));
 		
 		items.put("Milk", 2.6);
-		System.out.println("Price of Milk" + items.get("Milk"));
+		System.out.println("Price of Milk: " + items.get("Milk"));
 		
 		//increase price of cherries by $2
+		items.replace("Cherries", items.get("Cherries")+2);
+		System.out.println("Price of Cherries: " + items.get("Cherries"));
 		
 		
 		
