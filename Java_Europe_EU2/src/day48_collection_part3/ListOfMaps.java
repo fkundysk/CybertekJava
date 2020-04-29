@@ -33,7 +33,18 @@ public class ListOfMaps {
 		System.out.println(employees.get(1).get("EmpName"));  //{Salary=80000, EmpID=124, JobTitle=Dev, EmpName=Mike}
 		
 		//print each employee title by using for each loop
+		//
+		int totalSalary = 0;
+		for(Map<String,String> emp : employees) {
+			//System.out.println(emp.get("JobTitle"));
+			totalSalary+=Integer.parseInt(emp.get("Salary"));
+			
+		}
 		
+		System.out.println("Total salary =" + totalSalary);
+		
+		
+		//THE END.....
 		
 		
 		
