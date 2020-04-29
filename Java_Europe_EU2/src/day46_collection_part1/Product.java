@@ -36,7 +36,7 @@ public class Product implements Comparable<Product> {
 	 * 1. positive number - > this Product is larger than another product 
 	 * 2. zero - > this Product and another product are equal
 	 * 3. negative - > this product is smaller than another product
-	 */
+	*/
 	@Override
 	public int compareTo(Product anotherProduct) {
 		if(this.price > anotherProduct.price) {
@@ -47,6 +47,7 @@ public class Product implements Comparable<Product> {
 			return -1;
 		}
 	}
+	 
 	
 	
 	

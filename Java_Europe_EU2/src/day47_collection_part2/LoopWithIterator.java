@@ -52,6 +52,17 @@ public class LoopWithIterator {
 		
 		System.out.print(nums.toString() + "|");
 		
+		List<String> cities = new ArrayList<>();
+		cities.add("New York");
+		cities.add("Boston");
+		cities.add("Viriginia");
+		cities.add("DC");
+		
+		for(String city : cities) {
+			if(city.equals("Boston")) {
+				cities.remove(city);
+			}
+		}
 		
 		
 		

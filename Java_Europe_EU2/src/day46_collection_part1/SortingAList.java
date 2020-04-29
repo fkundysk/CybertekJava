@@ -34,14 +34,14 @@ public class SortingAList {
 		System.out.println("Before sorting");
 		System.out.println(prodList.toString());
 		
-		Collections.sort(prodList);
+		//Collections.sort(prodList);
 		
 		System.out.println("After sorting");
 		System.out.println(prodList.toString());
 		
 		Product p1 = new Product("spoon", 25.34);
 		Product p2 = new Product("chair",7.99);
-		System.out.println(p1.compareTo(p2));
+		//System.out.println(p1.compareTo(p2));
 		
 		
 		
